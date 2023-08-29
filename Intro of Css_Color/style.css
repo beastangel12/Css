@@ -1,0 +1,26 @@
+body{
+    background-color: hsl(184, 100%, 48%);
+}
+
+h1{
+    background-color: white;
+}
+
+/* ID will take it first in compare to class */
+.odd{
+    background-color: red
+}
+
+#p1{
+    
+    background-color: hsl(177, 98%, 50%);
+}
+
+#p2{
+    background-color:  rgba(70, 243, 1, 0.575);
+}
+
+#p3{
+    background-color: azure;
+}
+
