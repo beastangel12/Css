@@ -1,0 +1,20 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    /* em is the unit of measurement.  where 1em == 100% */
+    /* Another unit of measurement is px */
+    /* font-size: 10px; */
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#p1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-style: italic;
+}
+
+#p2{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
