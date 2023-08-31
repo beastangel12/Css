@@ -1,0 +1,16 @@
+h1{
+    /* first one is for the horinzontal and second one is for the vertical 
+    3rd one is for the blur */
+
+
+    /* We can add more shadow in one element and each shadow must be separate from comma */
+    text-shadow: 2px 2px 3px red , -20px 2px 2px green;
+}
+
+
+#box-1{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    box-shadow: 20px 5px 5px;
+}
