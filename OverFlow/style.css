@@ -1,0 +1,8 @@
+p{
+    border: 2px solid ;
+    height: 20px;
+
+    /* div ko border banda nih bahira aako xa paragraph ko text haru ani deko div ko height banda bahira aauxa bani teslai overflow banxa like yeha neri height 20px ani div bitra bayeko paragraph ko text haru tyo height bhand badi xa it means bahira niskeko xa so tyo overflow bayo ani teslai maintain garna ko lagi 5 ota property xa tara overflow: auto gardiyo bani thik hunxa example:-*/
+
+    overflow: auto;
+}
