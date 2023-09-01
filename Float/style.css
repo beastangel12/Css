@@ -1,3 +1,10 @@
+body{
+    border: 3px solid;
+    /* body bitra border lyadinxa tara 2nd image lai ramrari cover gardaina so, teivayera 
+    hamiley display: flow-root; banni code halnu parxa so that 2nd image pani border bitra flow hoss */
+    display: flow-root;
+}
+
 #img1{
     float: left;
     margin-right: 10px;
