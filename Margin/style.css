@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+.box{
+    border: 7px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 5em;
+}
+
+#box1{
+    background-color: aqua;
+    /* margin-top: 50px; */
+
+    /* auto ley xhai adjust gardai janxa jun direction ma vanya xa tei direction ma  */
+    /* margin-left: auto; */
+
+    /* margin:auto ley xhai center ma rakhdinxa ani screen ko width badauda pani tyo anushar fit gardinxu */
+    margin: auto;
+}
+
+
+#box2{
+    background-color: chartreuse;
+    margin-right: auto;
+}
