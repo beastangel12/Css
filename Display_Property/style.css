@@ -1,0 +1,36 @@
+div{
+    background-color: hsl(0, 90%, 67%);
+    height: 100px;
+    width: 50px;
+
+
+    /* yedi div lai inline property ma change gariyo bani then jati word ko length xa teti matrai linxa yeha deko height ra width ko valueless hunxa example ko lagi :-
+
+    display: inline; 
+     */
+}
+
+
+
+/* We cannot directly change the behaviour of the span element, to change the span element we should change this inline element to block element
+    -In span we cannot provide the height and width it will remain the same as before ani 
+    - Height or width provide garnu ko lagi span lai block element ma change garnu parxa 
+    Example- display: block*/
+span{
+    background-color: hsl(219, 71%, 54%);
+    height: 100px;
+
+    /* aailey height ma kei pani change hudaina aaba change garnu ko lagi span lai block ma change garnu parxa like this:- */
+
+    /* display: block;
+    height: 100px;  */
+    
+     /* ani aarko xa property display: ; */
+     display: inline-block;
+     /* display: inline-block is same inline ho tara yesma ma xhai we can put height and width */
+     visibility: hidden;
+     /* yo chai gariyo bani span ma bako xhai gayeb hunxa tara content xhai tei hunxa  */
+
+     /* Ani arko property xa display:none
+     yo property ley xhai content gayeb garayidinxa */
+}
